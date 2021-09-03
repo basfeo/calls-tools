@@ -1,0 +1,51 @@
+[root@docker-compose-01 docker-task]# tree 
+.
+├── docker-compose.yaml
+├── grafana_db
+│   ├── csv
+│   ├── grafana.db
+│   ├── plugins
+│   └── png
+├── node-exporter
+│   ├── free.prom
+│   └── scr.py
+├── prometheus_db
+│   ├── alert.rules
+│   ├── data
+│   │   ├── 01FEKH9YFJFD9RHMPW19RAZ9JT
+│   │   │   ├── chunks
+│   │   │   │   └── 000001
+│   │   │   ├── index
+│   │   │   ├── meta.json
+│   │   │   └── tombstones
+│   │   ├── 01FEKQ7Y2ZV0DWEE0E53232V9N
+│   │   │   ├── chunks
+│   │   │   │   └── 000001
+│   │   │   ├── index
+│   │   │   ├── meta.json
+│   │   │   └── tombstones
+│   │   ├── 01FEKY3QAHFJ6P1YPXF2MPNYRR
+│   │   │   ├── chunks
+│   │   │   │   └── 000001
+│   │   │   ├── index
+│   │   │   ├── meta.json
+│   │   │   └── tombstones
+│   │   ├── 01FEM4ZEJMJE338Q173FAGVW4V
+│   │   │   ├── chunks
+│   │   │   │   └── 000001
+│   │   │   ├── index
+│   │   │   ├── meta.json
+│   │   │   └── tombstones
+│   │   ├── chunks_head
+│   │   │   ├── 000010
+│   │   │   └── 000011
+│   │   ├── lock
+│   │   ├── queries.active
+│   │   └── wal
+│   │       ├── 00000012
+│   │       ├── 00000013
+│   │       ├── 00000014
+│   │       └── checkpoint.00000011
+│   │           └── 00000000
+│   └── prometheus.yml
+└── prometheus.yml

@@ -1,0 +1,10 @@
+[Unit]
+Description=Update free space byte
+
+[Service]
+Type=simple
+ExecStart=/root/docker-task/node-exporter/scr.py
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

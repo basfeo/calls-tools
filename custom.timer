@@ -1,0 +1,14 @@
+docker@docker-labs:~$ sudo cat /etc/systemd/user/custom.timer 
+[Unit]
+Description=Schedule a message every 10 sec
+RefuseManualStart=no # Allow manual starts
+RefuseManualStop=no # Allow manual stops 
+
+[Timer]
+Persistent=true
+OnBootSec=120
+OnUnitActiveSec=10
+Unit=custom.service 
+
+[Install]
+WantedBy=timers.target
